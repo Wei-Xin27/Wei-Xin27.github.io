@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+		<link href="../style.css" rel="stylesheet" type="text/css">
+		<script src="../lib/jquery.js"></script>
+        <script src="../lib/modernizr.min.js"></script>
+		<script src="../lib/knob.js"></script>
+		<script src="../lib/bootstrap.min.js"></script>
+		<script src="jqueryCtrl.js"></script>
+		<script src="../script/bzBaseClasses.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="date-container">
+			<div id="InputDate">
+				<span id="DateTitle">西曆</span>
+				<span id="InputYear">1972</span>年
+				<span id="InputMonth">1</span>月
+				<span id="InputDay">1</span>日
+				<span id="InputDZHour">子</span>時（
+				<span id="InputHour">1</span>時
+				<span id="InputMinute">0</span>分）
+			</div>
+			
+			<div class="ymdh-container">
+				<div class="ymdh-disptext">年</div>
+				<input value="1972" id="dial-year" class="dial">
+			</div>
+
+			<div class="ymdh-container">
+				<div class="ymdh-disptext">月</div>
+				<input value="1" id="dial-month" class="dial">
+			</div>
+
+			<div class="ymdh-container">
+				<div class="ymdh-disptext">日</div>
+				<input value="1" id="dial-day" class="dial">
+			</div>
+
+			<div class="ymdh-container">
+				<div class="ymdh-disptext">時</div>
+				<div style="position:absolute;left:180px;top:234px"><input value="1" id="dial-hour" class="dial"></div>
+				<div style="position:absolute;left:205px;top:259px"><input value="0" id="dial-minute" class="dial"></div>
+			</div>
+
+		</div>
+
+
+		<div class="gz-date-container">
+			<div id="InputBazi">
+				<span id="Date-GZ-Title">干支</span>
+				<span id="GZ-Year">甲子</span>&nbsp
+
+				<span id="GZ-Month">甲子</span>&nbsp
+				<span id="GZ-Day">甲子</span>&nbsp
+				<span id="GZ-Hour">甲子</span>&nbsp
+			</div>
+
+			<div class="gz-ymdh-container">
+				<div class="gz-ymdh-disptext">年</div>
+				<div style="position:relative;left:0px;top:0px"><input value="0" id="gz-dial-年干" class="dial"></div>
+				<div style="position:relative;left:25px;top:-175px"><input value="0" id="gz-dial-年支" class="dial"></div>
+				<div class="八字干支輸入" style="position:relative;left:72px;top:-343px"><span id="knob_年干">甲</span><br><span id="knob_年支">子</span></div>
+			</div>
+
+			<div class="gz-ymdh-container">
+				<div class="gz-ymdh-disptext">月</div>
+				<div style="position:relative;left:0px;top:0px"><input value="0" id="gz-dial-月干" class="dial"></div>
+				<div style="position:relative;left:25px;top:-175px"><input value="0" id="gz-dial-月支" class="dial"></div>
+				<div class="八字干支輸入" style="position:relative;left:72px;top:-343px"><span id="knob_月干">甲</span><br><span id="knob_月支">子</span></div>
+			</div>
+			
+			<div class="gz-ymdh-container">
+				<div class="gz-ymdh-disptext">日</div>
+				<div style="position:relative;left:0px;top:0px"><input value="0" id="gz-dial-日干" class="dial"></div>
+				<div style="position:relative;left:25px;top:-175px"><input value="0" id="gz-dial-日支" class="dial"></div>
+				<div class="八字干支輸入" style="position:relative;left:72px;top:-343px"><span id="knob_日干">甲</span><br><span id="knob_日支">子</span></div>
+			</div>
+
+			<div class="gz-ymdh-container">
+				<div class="gz-ymdh-disptext">時</div>
+				<div style="position:relative;left:0px;top:0px"><input value="0" id="gz-dial-時干" class="dial"></div>
+				<div style="position:relative;left:25px;top:-175px"><input value="0" id="gz-dial-時支" class="dial"></div>
+				<div class="八字干支輸入" style="position:relative;left:72px;top:-343px"><span id="knob_時干">甲</span><br><span id="knob_時支">子</span></div>
+			</div>
+			
+		</div>
+
+		<!--p data-toggle="tooltip" title="爸爸">this is a paragraph</p-->
+		<script>
+		$(function() {
+			
+		}); 
+
+
+		$('#InputMonth').bind('DoBInputChanged', function() {
+			var monthval=parseInt($("#InputMonth").html());
+			if(monthval==0) $("#InputMonth").html("12");
+		});
+
+		$('#InputDay').bind('DoBInputChanged', function() {
+			//var monthval=parseInt($("#InputMonth").html());
+			var dayval=parseInt($("#InputDay").html());
+			if(dayval==0) $("#InputDay").html("31");
+		});
+
+		</script>
+
+        <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+        <!--script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <!--script src="js/plugins.js"></script-->
+        <!--script src="js/main.js"></script-->
+
+    </body>
+</html>

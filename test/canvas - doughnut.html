@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript">
+	window.onload = function () {
+		
+		var dps = [{x: 60, y: 60, name: "木 {x}%", color: "#009900"}, 
+				   {x: 23, y: 23, name: "火 {x}%", color: "#CC0000"}, 
+				   {x: 1, y: 1, name: "土 {x}%", color: "#663300"}, 
+				   {x: 10, y: 10, name: "金 {x}%", color: "#FF9900"}, 
+				   {x: 6, y: 6, name: "水 {x}%", color: "#0066FF"}
+                   //{x: 6, y: 6.5, name: "水", label: "6%", color: "#0066FF"}
+				  ];   //dataPoints.
+		var StartPortion=dps[0].x;
+		
+		var CalcAngle;
+		if(StartPortion<=50) CalcAngle=180+(1.8*(50-StartPortion));
+		if(StartPortion>50) CalcAngle=180-(1.8*(StartPortion-50));
+		
+		console.log(CalcAngle);
+		var chart = new CanvasJS.Chart("chartContainer",
+		{
+			title:{
+				text: "五 行 分 佈",
+				fontSize: 18,
+                fontFamily: '"kaiti", "calibri", "arial", "tahoma"', //default calibri
+                horizontalAlign: "center", // left, center ,right 
+                verticalAlign: "bottom"  // top, center, bottom
+                
+			},
+            legend: {
+                fontSize: 15,
+                fontFamily: '"kaiti", "calibri", "arial", "tahoma"', //default calibri
+                horizontalAlign: "center", // left, center ,right 
+                verticalAlign: "top"  // top, center, bottom
+            },
+
+            toolTip:{
+                enabled: false  //default true
+                //content: auto, //default is auto, can be "{name}"
+                //fontSize: 15,
+                //fontFamily: '"kaiti", "calibri", "arial", "tahoma"' //default calibri
+            },
+        
+            animationEnabled: true,
+			theme: "theme2",
+			data: [
+			{   
+                
+				type: "doughnut",
+				indexLabel: "", //"{label}",  // indexLabel: "{x}, {y}"
+				indexLabelFontFamily: "Garamond",       
+				indexLabelFontSize: 20,
+                indexLabelPlacement: "inside", //default is "outside"
+				startAngle:CalcAngle,
+				indexLabelFontColor: "dimgrey",       
+				indexLabelLineColor: "darkgrey", 
+				showInLegend: true, 
+                
+				//toolTipContent: "{name}", 					
+
+				dataPoints: dps
+			}
+			]
+		});
+
+		chart.render();
+	}
+	</script>
+	<script type="text/javascript" src="..\lib\canvasjs.min.js"></script>
+        </head>
+	<body>
+		<div id="chartContainer" style="height: 300px; width: 300px;">
+		</div>
+	</body>
+</html>
