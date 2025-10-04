@@ -1,0 +1,761 @@
+.shhp-地支模塊 {
+    width: 300px;
+    height: auto;
+    text-align: center; 
+    vertical-align:middle;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.shhp-地支宮背景色 { background: #f5f5f0; }
+.shhp-一宮背景色 { background: #ccffcc; }
+.shhp-五宮背景色 { background: #ffe6ff; }
+.shhp-九宮背景色 { background: #ccffff; }
+
+
+.sh-廟陷格子 {
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 18px;
+    color: #3399ff;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+.sh-橫盤主星格子 {
+    width: 26px;
+    height: 48px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 22px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-橫盤副星格子 {
+    width: 26px;
+    height: 48px;
+    text-align: center; 
+    vertical-align:middle;
+
+    /* font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai"; */
+    font-family: arial;
+    font-size: 20px;
+    /* font-weight: bold; */
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-橫盤雜曜格子 {
+    width: 26px;
+    height: 48px;
+    text-align: center; 
+    vertical-align:middle;
+
+    /* font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai"; */
+    font-family: arial;
+    font-size: 18px;
+    /* font-weight: bold; */
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-橫盤主星四化格子{
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-橫盤副星四化格子{
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+/* ************ 生年四化 字體顏色 *************** */
+.生年化祿顏色 {color: #009933;}
+.生年化權顏色 {color: #0033cc;}
+.生年化科顏色 {color: #ff9900;}
+.生年化忌顏色 {color: #ff0000;}
+
+
+
+.sh-橫盤大限主星四化格子{
+    width: 22px;
+    height: 22px;
+    text-align: center; 
+    vertical-align:middle;
+    
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin: 2px 2px 2px 2px;
+    padding:2px 2px 2px 2px;
+    
+    /*background: #FAFAFA;
+    border: 1px solid white;
+    border-radius: 12px;
+	border-collapse: collapse; */
+    
+}
+
+.sh-橫盤大限副星四化格子{
+    width: 22px;
+    height: 22px;
+    text-align: center; 
+    vertical-align:middle;
+    
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 2px 2px 2px 2px;
+    padding:2px 2px 2px 2px;
+    
+    /*background: #FAFAFA; 
+    border: 1px;
+    border-radius: 12px;
+	border-collapse: collapse; */
+}
+
+
+/* ************ 大限四化 字體顏色 *************** */
+.shhp-大限化祿顏色 {color: white; background: green; border-radius: 12px}
+.shhp-大限化權顏色 {color: white; background: blue; border-radius: 12px}
+.shhp-大限化科顏色 {color: white; background: #ff9900; border-radius: 12px}
+.shhp-大限化忌顏色 {color: white; background: red; border-radius: 12px}
+.shhp-大限四化框移除 {color: white; background: white; border-radius: 12px}
+
+
+.shhp-流年主星四化格子{
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.shhp-流年副星四化格子{
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+/* ************ 流年四化 字體顏色 *************** */
+.shhp-流年化祿顏色 {color: green; background: #e0e0d2; border-radius: 6px}
+.shhp-流年化權顏色 {color: blue; background: #e0e0d2; border-radius: 6px}
+.shhp-流年化科顏色 {color: #ff9900; background: #e0e0d2; border-radius: 6px}
+.shhp-流年化忌顏色 {color: red; background: #e0e0d2; border-radius: 6px}
+
+
+
+/* 單一格子*/
+
+.sh-三合宮位格子 {
+    width: 104px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-三合身宮格子 {
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 18px;
+    font-weight: bold;
+    color: chocolate;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+.shhp-大限歲數格子 {
+    width: 104px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.shhp-當選大限歲數格子 {
+    color: blue;
+}
+
+
+.shhp-大限宮位格子 {
+    width: 104px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+.shhp-流年宮位格子 {
+    width: 52px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: deeppink;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+.shhp-流年年份格子 {
+    width: 52px;
+    height: 26px;
+    text-align: left; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 14px;
+    color: deeppink;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 8px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.shhp-流年歲數格子 {
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 14px;
+    color: deeppink;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+
+.shhp-大曜格子 {
+    width: 52px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 16px;
+    /* color: white; */
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    /*background: #FAFAFA; 
+    border: 1px solid black;
+	border-collapse: collapse; */
+}
+
+.shhp-大曜顯示 {color: purple;}
+.shhp-大曜隱藏 {color: white;}
+
+
+.shhp-流曜格子 {
+    width: 52px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: arial;
+    font-size: 16px;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.shhp-流曜顯示 {color: deeppink;}
+.shhp-流曜隱藏 {color: white;}
+
+
+
+.sh-三合天干格子 {
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.sh-三合地支格子 {
+    width: 26px;
+    height: 26px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+
+
+.shhp-橫盤客制選項 {
+    width: 1000px;
+    height: auto;
+    text-align: left; 
+    vertical-align:top;
+    float:left;
+    
+    font-family: arial;
+    font-size: 18px;
+    /* font-weight: bold; */
+    
+    margin: 10px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+/* ------------------ 星曜註解欄 ------------------ */
+.shhp-星曜註解欄 {
+    width: 1000px;
+    height: auto;
+    text-align: left; 
+    vertical-align:top;
+    float:left;
+    
+    font-family: arial;
+    font-size: 18px;
+    /* font-weight: bold; */
+    
+    margin: 10px 0px 0px 10px;
+    padding: 0px 0px 5px 5px;
+    
+    border: 1px solid grey;
+    border-radius: 12px;
+    border-collapse: collapse;
+    
+    /*background: #FAFAFA;*/
+}
+
+
+.shhp-星曜點擊 {
+    text-align: left; 
+    vertical-align:top;
+    float:left;
+    
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin: 5px 0px 0px 5px;
+    padding: 0px 0px 5px 5px;
+    /*background: #FAFAFA;*/
+}
+
+.shhp-星曜註解 {
+    text-align: left; 
+    vertical-align:top;
+    float:left;
+    
+    font-family: arial;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    
+    margin: 5px 0px 0px 5px;
+    padding: 0px 0px 5px 5px;
+    /*background: #FAFAFA;*/
+}
+
+/* ------------------ 橫盤中宮 ------------------ */
+.shhp-中宮顯示板塊 {
+    width: 100%; /*520px;*/
+    height: 400px;
+    text-align: center; 
+    vertical-align: middle;
+    /* border-radius: 8px; 
+    font-family: arial;
+    font-size: 16px; 
+    color: white;  */
+    background-color: #f5f5f0;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.shhp-中宮顯示卡{
+    width: 100%; /*520px;*/
+    height: 100%px;
+    text-align: center; 
+    vertical-align: middle;
+    /* border-radius: 8px; 
+    font-family: arial;
+    font-size: 16px; 
+    color: white;  */
+    background-color: #f5f5f0;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.shhp-中宮按鍵板塊 {
+    width: 100%;
+    height: 36px;
+    text-align: center; 
+    vertical-align: middle;
+    /* border-radius: 8px; 
+    font-family: arial;
+    font-size: 16px; 
+    color: white; */
+    background-color: #f5f5f0;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.shhp-中宮按鍵 {
+    width: 96%;
+    height: 30px;
+    text-align: center; 
+    vertical-align: middle;
+    border-radius: 8px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    background-color: #4d2600;
+
+    margin: 1px 0px 0px 0px;
+    padding: 1px 1px 2px 1px;
+}
+
+/* ********************************************************************** */
+
+ /* ---------- 中宮顯示 主頁 ---------- */
+.shhp-三合橫盤中宮主體板塊 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background: #f5f5f0;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.shhp-中宮顯示小標題 {
+    width: 100px;
+    text-align: left; 
+    vertical-align: middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 35px;
+}
+
+
+.shhp-中宮顯示命盤資料 {
+    text-align: left; 
+    vertical-align: middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.shhp-中宮顯示命盤資料中 {
+    text-align: center; 
+    vertical-align: middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+ /* ---------- 中宮顯示 顯示 ---------- */
+.shhp-中宮顯示分析標題 {
+    text-align: center; 
+    vertical-align: top;
+    height: 50px;
+    
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 24px; 
+    color: black;
+    font-weight: bold;
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+.shhp-中宮顯示分析內容 {
+    height: 165px;
+    text-align: left; 
+    vertical-align: top;
+    
+    font-family: arial;
+    font-size: 16px; 
+    color: black;
+    /*font-weight: bold;*/
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.shhp-中宮顯示格局內容 {
+    height: 165px;
+    text-align: left; 
+    vertical-align: top;
+    
+    font-family: arial;
+    font-size: 16px; 
+    color: black;
+    /*font-weight: bold;*/
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.shhp-中宮顯示分析吉曜內容 {
+    text-align: left; 
+    vertical-align: top;
+    
+    font-family: arial;
+    font-size: 16px; 
+    color: #009900;
+    /*font-weight: bold;*/
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+.shhp-中宮顯示分析煞曜內容 {
+    text-align: left; 
+    vertical-align: top;
+    
+    font-family: arial;
+    font-size: 16px; 
+    color: #e60000;
+    /*font-weight: bold;*/
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+ /* ---------- 中宮顯示 關於 ---------- */
+
+.shhp-中宮顯示關於Logo {
+    width: 155px;
+    height: 155px;
+    text-align: left; 
+    vertical-align: middle;
+    /*
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+    */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 20px;
+}
+
+.shhp-中宮顯示關於文 {
+    width: 345px;
+    height: 155px;
+    text-align: center; 
+    vertical-align: top;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+.shhp-中宮顯示關於文標題 {
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 40px; 
+    color: black;
+    font-weight: bold;
+}
+
+.shhp-中宮顯示關於文小標題 {
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 28px; 
+    color: black;
+    font-weight: bold;
+}
+
+.shhp-中宮顯示關於貢獻者 {
+    width: auto;
+    height: 50px;
+    text-align: left; 
+    vertical-align: middle;
+    
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 0px 10px;
+    
+    font-family: arial;
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+}
+
+.shhp-中宮顯示關於貢獻名單 {
+    width: auto;
+    height: 160px;
+    text-align: left; 
+    vertical-align: top;
+    
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    
+    font-family: arial;
+    font-size: 20px; 
+    color: black;
+}

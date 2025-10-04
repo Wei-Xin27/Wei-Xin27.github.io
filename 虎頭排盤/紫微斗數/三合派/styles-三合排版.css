@@ -1,0 +1,183 @@
+.shpb_sample {
+    width: 360px;
+    height: 320px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    text-align: left;
+    vertical-align: top;
+
+    font-family: arial;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ************************* 本 命 分 析 *************************** */
+/* shpp = 三合排版 */
+
+.shpp-主題宮名 {
+    text-align: left;
+    vertical-align: center;
+    
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 30px;
+    color: purple;
+    font-weight: bold;
+} /* shpp-主題宮名 */
+
+
+/* ********* 星 曜 互 涉 表 ********* */
+/* xyhstbl = 星曜互涉 table */
+
+.shpp-xyhstbl-宮名地支 { /* 1st column */
+    width: 120px;
+    /* height: 100px; */
+    
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #ffffff;
+} /* shpp-xyhstbl-宮名地支 */
+
+
+.shpp-xyhstbl-三方四正星曜標題 { /* 2nd column */
+    width: 270px;
+    height: 30px;
+    
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #ffffff;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+} /* shpp-xyhstbl-三方四正星曜標題 */
+
+.shpp-xyhstbl-吉曜標題 { /* 3rd column */
+    width: 200px;
+    height: 30px;
+    
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: center;
+    background-color: green;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+} /* shpp-xyhstbl-宮名 */
+
+
+.shpp-xyhstbl-煞曜標題 { /* 4th column */
+    width: 200px;
+    height: 30px;
+    
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: center;
+    background-color: red;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+} /* shpp-xyhstbl-煞曜標題 */
+
+.shpp-xyhstbl-格局標題 { /* 5th column */
+    width: 140px;
+    height: 30px;
+    
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+} /* shpp-xyhstbl-格局標題 */
+
+.shpp-xyhstbl-互涉星曜內容 {
+    padding: 0px 0px 0px 3px;
+    text-align: left;
+    vertical-align: top;
+    
+    font-family: arial;
+    font-size: 18px;
+    color: black;
+} /* shpp-xyhstbl-互涉星曜內容 */
+
+.shpp-xyhstbl-宮名 {
+    font-family: arial;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+} /* shpp-xyhstbl-宮名 */
+
+.shpp-xyhstbl-主星 {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+} /* shpp-xyhstbl-干支 */
+
+.shpp-xyhstbl-干支 {
+    font-family: arial;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+} /* shpp-xyhstbl-干支 */
+
+
+
+/* ********* 宮位分析內容 ********* */
+/* fxnr = 分析內容 */
+.shpp-fxnr-主星簡論 {
+    width: 1000px;
+    height: auto;
+    
+    padding: 0px 0px 0px 8px;
+    text-align: left;
+    vertical-align: top;
+    background-color: white;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+} /* shpp-fxnr-主星簡論 */
+
+
+.shpp-fxnr-宮位判斷內容 {
+    width: 1000px;
+    height: auto;
+    
+    padding: 0px 0px 0px 8px;
+    text-align: left;
+    vertical-align: top;
+    background-color: white;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+} /* shpp-fxnr-宮位判斷內容 */
+
+
+.shpp-fxnr-內容參考資料 {
+    width: 200px;
+    height: auto;
+    
+    padding: 0px 0px 0px 2px;
+    text-align: left;
+    vertical-align: top;
+    background-color: white;
+    
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai", arial;
+    font-size: 18px;
+    color: dodgerblue;
+} /* shpp-fxnr-內容參考資料 */
+

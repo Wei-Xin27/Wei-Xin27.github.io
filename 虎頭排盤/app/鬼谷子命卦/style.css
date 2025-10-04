@@ -1,0 +1,93 @@
+/* ************ 命卦六爻 CSS *************** */
+
+
+
+.ly-tblcellbg {
+  background-color: black;
+}
+
+.ly-爻體積大 {
+  width: 20px;
+  height: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ly-爻體積中 {
+  width: 10px;
+  height: 6px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ly-爻體積小 {
+  width: 5px;
+  height: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ly-爻左右資訊體積大 {
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ly-爻左右資訊無 {
+  width: 1px;
+}
+
+.ly-標題無 {/* 上下卦、標題*/
+  height: 1px;
+}
+
+.ly-實爻 {
+  background-color: black;
+}
+
+.ly-虛爻 {
+  background-color: white;
+}
+
+/* Text Formatting*/
+.ly-tblcellTextLeft {
+  font-family: Sans-serif;
+  font-size: 12px;
+  text-align: right;
+  vertical-align: center;
+  padding: 0px 3px 0px 0px;
+}
+
+.ly-tblcellTextRight {
+  font-family: Sans-serif;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: center;
+  padding: 0px 0px 0px 3px;
+}
+
+.ly-tblcellTextCenter {
+  font-family: Sans-serif;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.ly-卦名大{
+  font-family: Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+}
+
+.ly-卦名中{
+  font-family: Sans-serif;
+  font-size: 12px;
+  /*font-weight: bold; */
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+}

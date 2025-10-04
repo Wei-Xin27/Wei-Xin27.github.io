@@ -1,0 +1,1 @@
+function 命盤總分析(命盤){$("#DouShuCSummary").html(本命宮位破六線(命盤));}

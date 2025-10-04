@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">  
+  <head>
+  <meta charset="utf-8" />
+  <meta name="Viewport" content="width=device-width" />
+  
+  <script type="text/javascript" src="../lib/jquery.js"></script> <!---- v2.1.3 ---->
+  <script type="text/javascript" src="../lib/underscore.js"></script> <!---- v1.8.3 ---->
+  <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../lib/moment.js"></script>
+  <script type="text/javascript" src="../lib/pgwbrowser.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="../script/曆法.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數命盤.js"></script>
+  <script type="text/javascript" src="../紫微斗數/core.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
+  <link href="../紫微斗數/ds-styles.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="..\lib\tipped.js"></script>
+  <link href="../css/tipped.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="..\lib\jquery.touch.js"></script>
+  
+
+  <title>紫微斗數 - 測試版</title>
+</head>
+
+<body>
+
+<div id="div-斗數-生日輸入" class="hidden-print"></div>
+
+<div class="container-fluid" id="DouShuChart" style="height: auto; float:left;"></div>
+
+<div class="container-fluid" id="DouShuCSummary" style="width: 720px; height: auto; float:left;"><p><br></p></div>
+
+<div class="container-fluid" id="debug-sysinfo" style="height: auto; width:200px; float:left;"></div>
+
+
+</body>
+
+<script type="text/javascript">
+  var 系統 = new 系統初始();
+  var 斗數命盤;
+  斗數命盤初始();
+</script>
+</html>

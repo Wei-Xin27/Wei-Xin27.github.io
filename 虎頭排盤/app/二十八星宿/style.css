@@ -1,0 +1,68 @@
+@media all {
+  .page-break { display: none; }
+}
+
+@media print {
+  .page-break { display: block; page-break-before: always; }
+}
+
+/* ************ 二十八宿 內容 CSS *************** */
+
+.twe_單元模塊 {
+  width: 620px;
+  height: auto;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid;
+  border-radius: 16px;
+  border-color: #bfbfbf;
+
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 20px;
+  color: black;
+}
+
+.twe_單元標題 {
+  text-align: left;
+  vertical-align: top;
+
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 22px;
+  color: black;
+}
+
+.twe_單元內容 {
+  text-align: left;
+  vertical-align: top;
+
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 20px;
+  color: black;
+}
+
+
+.twe_星宿名稱 {
+    width: auto;
+    height: auto;
+    text-align: center; 
+    vertical-align: middle;
+    
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 24px;
+    color: black;
+}
+
+.twe_星宿名稱1 {
+  width: auto;
+  height: auto;
+      
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid;
+  border-radius: 16px;
+  border-color: #bfbfbf;
+
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 20px;
+  color: black;
+}

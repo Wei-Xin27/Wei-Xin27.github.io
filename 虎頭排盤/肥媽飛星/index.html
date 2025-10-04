@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">  
+  <head>
+  <meta charset="utf-8" />
+  <meta name="Viewport" content="width=device-width" />
+  
+  <script type="text/javascript" src="../lib/jquery.js"></script> <!---- v2.1.3 ---->
+  <script type="text/javascript" src="../lib/underscore.js"></script> <!---- v1.8.3 ---->
+  <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../lib/moment.js"></script>
+  <script type="text/javascript" src="../lib/pgwbrowser.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  
+
+  <script type="text/javascript" src="../script/生日輸入模塊.js"></script>
+  <script type="text/javascript" src="../script/萬年曆.js"></script>
+  <script type="text/javascript" src="../script/Plug-ins.js"></script>
+  <script type="text/javascript" src="../script/bzBaseClasses.js"></script>
+  <script type="text/javascript" src="../script/authen.js"></script>
+    
+  <script type="text/javascript" src="../紫微斗數/斗數命盤.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數圖表.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數基礎配件.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數速查.js"></script>
+  <script type="text/javascript" src="../紫微斗數/四化排盤.js"></script>
+  <script type="text/javascript" src="../紫微斗數/init-zw.js"></script>
+  <script type="text/javascript" src="../紫微斗數/zw-UICtrl.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數分析配件.js"></script>
+  <script type="text/javascript" src="../紫微斗數/宮位四化分析.js"></script>
+  <script type="text/javascript" src="../紫微斗數/本命分析.js"></script>
+  <script type="text/javascript" src="../紫微斗數/命盤分析.js"></script>
+  <script type="text/javascript" src="../紫微斗數/大限分析.js"></script>
+  <script type="text/javascript" src="../紫微斗數/本命分析模塊.js"></script>
+  <script type="text/javascript" src="../紫微斗數/大限架構分析模塊.js"></script>
+  <script type="text/javascript" src="../紫微斗數/大限財官分析模塊.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數命盤設計模塊.js"></script>
+  <script type="text/javascript" src="../app/速查表.js"></script>
+	  
+  <link href="../紫微斗數/ds-styles.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="系統設定.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
+
+
+  <!--- tipped http://www.tippedjs.com/documentation -->
+  <!--script type="text/javascript" src="..\lib\tipped.js"></script-->
+  <!--link href="../css/tipped.css" rel="stylesheet" type="text/css"-->
+
+  <!-- jQuery touchy: https://github.com/yairEO/touchy -->
+  <script type="text/javascript" src="..\lib\jquery.touch.js"></script>
+
+
+  <title>紫微斗數 - 十八飛星</title>
+</head>
+
+<body>
+
+<div id="div-斗數-生日輸入" class="hidden-print"></div>
+
+<div class="container-fluid" id="DouShuChart" style="height: auto; float:left;"></div>
+
+<div class="row"></div>
+
+
+<div id="DS-AnalysisMenu" style="margin-left: 5px; margin-top: 8px;">
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#tab-本命">本命分析</a></li>
+    <li><a data-toggle="tab" href="#tab-大限">大限分析</a></li>
+  </ul>
+</div>
+
+
+<div id="DS-AnalysisContent" class="tab-content" style="margin-left: 5px;">
+  <div id="tab-本命" class="tab-pane fade in active">
+    <!--h3>本命分析</h3-->
+    <p id="tab-本命飛星分析內容" class="container-fluid ds-分析內容" style="margin-left: 3px;"></p>
+  </div>
+  <div id="tab-大限" class="tab-pane fade">
+    <!--h3>大限分析</h3-->
+    <p id="DaXianContent" class="container-fluid ds-分析內容" style="margin-left: 3px;"></p>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="debug-sysinfo" style="height: auto; width:200px; float:left;"></div>
+
+
+</body>
+
+<script type="text/javascript">
+  var 系統 = new 系統初始();
+  var 斗數命盤;
+  斗數命盤初始();
+</script>
+</html>

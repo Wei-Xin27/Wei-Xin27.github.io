@@ -1,0 +1,160 @@
+/* ************ 奇門遁甲 CSS *************** */
+.遁甲盤-橫幅 {
+  /*style="text-align: left; width: 608px; height: 602px;"*/
+  height: 124px; 
+  width: 600px;
+  text-align: middle;
+  vertical-align: top;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 10px 10px 10px;
+}
+
+.qmdj-tblcell-遁甲盤 {
+  /*style="text-align: left; width: 608px; height: 602px;"*/
+  height: 432px; 
+  width: 602px;
+  text-align: left;
+  vertical-align: top;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-九宮格 {
+  height: 136px; 
+  width: 200px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-宮位表 {
+  height: 144px;
+  width: 198px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.qmdj-tblcell-遁甲宮位格 {
+  height: 42px; 
+  width: 62px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-遁甲宮雙行字{
+  height: 54px; 
+  width: 62px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-八神字體 {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 24px;
+  text-align: center;
+  vertical-align: top;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-MainTextRight {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 24px;
+  text-align: center;
+  vertical-align: top;
+  margin: 0px 0px 0px 7px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-SubTextRight {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 16px;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-SubTextLeft {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-空亡驛馬字體 {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 20px;
+  text-align: center;
+  vertical-align: top;
+  float: right;
+  margin: 0px 4px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-遁甲八卦宮位 {
+  height: 59px; 
+  width: 62px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+.qmdj-sumtblcell-四柱{
+  height: 60px; 
+  width: 60px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.qmdj-sumtblcell-四柱名稱{
+  height: 20px; 
+  width: 60px;
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-遁甲局盤標題 {
+  font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  font-size: 24px;
+  text-align: left;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.qmdj-tblcell-遁甲局盤結論 {
+  font-family: "trebuchet";
+  font-size: 14px;
+  text-align: left;
+  vertical-align: middle;
+  margin: 0px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+}

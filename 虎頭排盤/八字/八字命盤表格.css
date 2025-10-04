@@ -1,0 +1,318 @@
+
+
+ /* ********* Header Section ********** */ 
+.bzb-資訊標題單格{
+	width: 70px;
+    text-align:center; 
+    vertical-align:middle;
+    border: 3px solid white;
+    padding: 2px 8px 2px 8px;
+    background:#FAFAFA;
+    border-collapse: collapse;
+
+  	font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  	font-size: 18px;
+  	/* font-weight: bold; */
+  	color: black;
+}
+
+.bzb-資訊資料單格{
+    width: 355px;
+    text-align:left; 
+    vertical-align:middle;
+    border: 3px solid white;
+    padding: 2px 8px 2px 8px;
+    background:#FAFAFA;
+    border-collapse: collapse;
+
+  	font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  	font-size: 16px;
+  	/* font-weight: bold; */
+  	color: black;
+}
+
+.bzb-資訊招牌單格{
+	/* width: 190px; */
+    text-align:left; 
+    vertical-align:middle;
+    border: 3px solid white;
+    padding: 1px 1px 1px 1px;
+    background:#FAFAFA;
+    border-collapse: collapse;
+
+  	font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+  	font-size: 16px;
+  	/* font-weight: bold; */
+  	color: black;
+}
+
+
+ /* ********* 精細八字盤表格 主體 ********** */ 
+
+ .bzb-八字圖表{
+    table-layout: fixed;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    border-collapse: collapse;
+    border-spacing: 0px 0px; 
+    padding: 0px 0px 0px 0px;
+}
+
+.bzb-命盤標題單格{
+	/* 八字表格的標題格子，如四柱，神煞。。。*/
+    width: 75px;
+    height: auto;
+    text-align:center; 
+    vertical-align:middle;
+    background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.bzb-命盤標題字型{
+	width: 75px;
+    text-align:center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: black;
+}
+
+.bzb-命盤單格 {
+	/* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+    width: 45px;
+    height: auto;
+    text-align:center; 
+    vertical-align:middle;
+    background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.bzb-命盤複合格 {
+	/* 八字表格的複合格子，一般是 rowspan/colspan */
+    /* width: auto;
+    height: auto;  */
+    text-align:center; 
+    vertical-align:middle;
+    background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.bzb-命盤複合格排上 {
+  /* 八字表格的複合格子，但要排上，比方地支藏干、神煞*/
+    /* width: auto;
+    height: auto; */
+    text-align:center; 
+    vertical-align:top;
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.bzb-命盤大字無色字型{
+  /* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bzb-命盤中大無色字型{
+    /* 藏干、運星、納音 字型*/
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.bzb-命盤中黑色字型{
+    /* 神煞 */
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.bzb-命盤中中黑色字型{
+  /* 流運干支 */
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: black;
+}
+
+.bzb-命盤中小黑色字型{
+  /* 流運年份、歲數 */
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: black;
+}
+
+ /* ********* 基本八字盤表格 主體 ********** */ 
+.bzb-jb-命盤單格 {
+    /* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+    width: 100px;
+    height: auto;
+    text-align:center; 
+    vertical-align:middle;
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.bzb-jb-命盤單格排上 {
+  /* 八字表格的複合格子，但要排上，比方地支藏干、神煞*/
+    width: auto;
+    height: auto;
+    text-align:center; 
+    vertical-align:top;
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.bzb-jb-命盤加大無色字型{
+  /* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 72px;
+}
+
+
+ /* ********* 八字英文盤表格 主體 ********** */ 
+.bzb-eng-命盤單格 {
+    /* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+    width: 120px;
+    height: auto;
+    text-align:center; 
+    vertical-align:middle;
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bzb-eng-命盤中大無色字型{
+    /* 藏干、運星、納音 字型*/
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.bzb-eng-命盤單格排上 {
+  /* 八字表格的複合格子，但要排上，比方地支藏干、神煞*/
+    width: auto;
+    height: auto;
+    text-align:center; 
+    vertical-align:top;
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.bzb-eng-命盤加大無色字型{
+  /* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 64px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bzb-eng-TitleText{
+  /* English sub-text, ganzi pinyin。*/
+    font-family: arial;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bzb-eng-subtext{
+  /* English sub-text, ganzi pinyin。*/
+    font-family: arial;
+    font-size: 16px;
+    text-align:center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bzb-eng-cg-mid{
+  /* 藏干*/
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 20px;
+    /* font-weight: bold; */
+    padding: 0px 0px 0px 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.bzb-eng-subtext-mid{
+  /* English sub-text, ganzi pinyin。*/
+    font-family: arial;
+    font-size: 18px;
+    text-align:center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bzb-eng-subtext-small{
+  /* English sub-text, ganzi pinyin。*/
+    font-family: arial;
+    font-size: 10px;
+    text-align:center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+
+ /* ********* 命盤格式化 ********** */ 
+/*
+@media (max-width: 700px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+*/

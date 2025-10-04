@@ -1,0 +1,285 @@
+
+
+ /* ********* 斗數地支宮格 ********** */ 
+ .ds-十二宮格{
+    table-layout: fixed;
+    width: 700px;
+    height: 700px;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border-collapse: collapse;
+    border-spacing:0px 0px;
+    background: #FAFAFA;
+    /* float:left; */
+    /* padding:0px 0px 0px 0px; */
+}
+
+.ds-地支格子 {
+	table-layout: fixed;
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 0px;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.ds-中宮資訊格式 {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+    /* background: yellow; */
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ .ds-宮格{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-collapse: collapse;
+    border-spacing:0px 0px; 
+	padding:0px 0px 0px 0px;
+    /* float:left; */
+}
+
+ .ds-中宮主體 {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    text-align: center; 
+    vertical-align:middle;
+    border-collapse: collapse;
+    border-spacing:0px 0px; 
+}
+
+
+.ds-星曜格子 {
+	/* 八字表格的最小單位格子，用於顯示大運、流年、流月、小運。*/
+    width: 28px;
+    height: 48px;
+    text-align: center; 
+    vertical-align:middle;
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /*background: #FAFAFA;
+    border: 1px solid black;
+	border-collapse: collapse;*/
+}
+
+.ds-生年四化格子 {
+    width: 28px;
+    height: 28px;
+    text-align: right; 
+    vertical-align: middle;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-生年四化格式 {
+    width: 28px;
+    height: 28px;
+	/* border-radius: 5px; */
+    text-align: center; 
+    vertical-align: middle;
+	/* background-color: lightblue; */
+	
+    font-family: arial;
+    font-size: 22px;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-自化格式 {
+    width: 22px;
+    height: 24px;
+	border-radius: 8px;
+    text-align: center; 
+    vertical-align: middle;
+	
+	color: white;
+    font-family: arial;
+    font-size: 18px;
+
+    margin: 0px 0px 0px 5px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-流出格子 {
+    width: 24px;
+    height: 24px;
+    text-align: center; 
+    vertical-align: middle;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-流出格式 {
+    width: 24px;
+    height: 22px;
+	border-radius: 6px;
+    text-align: center; 
+    vertical-align: middle;
+	
+	color: white;
+    font-family: arial;
+    font-size: 18px;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-宮名字 {
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.ds-宮格干支字 {
+	height: 28px;
+    font-family: arial;
+    font-size: 20px;
+    /*font-weight: bold*/;
+}
+
+.ds-大限宮位 {
+	height: 28px;
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-align: center; 
+    /*font-weight: bold*/;
+}
+
+.ds-大限歲數 {
+    font-family: arial;
+    font-size: 20px;
+    color: blue;
+    text-align: right; 
+    /*font-weight: bold*/;
+}
+
+.ds-當下大限歲數 {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    text-align: right; 
+    /* background-color: #000000; */
+    font-weight: bold;
+}
+
+.ds-流年歲字 {
+    font-family: arial;
+    font-size: 16px;
+    color: #ff00ff;
+    text-align: right; 
+	vertical-align: bottom;
+	padding:0px 8px 0px 0px;
+    /*font-weight: bold*/;
+}
+
+.ds-流年年字 {
+    font-family: arial;
+    font-size: 16px;
+    color: #ff00ff;
+    text-align: right; 
+	vertical-align: bottom;
+    /*font-weight: bold*/;
+}
+
+.ds-流年宮位 {
+    font-family: arial;
+    font-size: 20px;
+    color: #ff00ff;
+    text-align:center; 
+    font-weight: bold;
+    vertical-align: bottom;
+    /*font-weight: bold*/;
+}
+
+
+
+/* ************ 四化字體顏色 *************** */
+.化祿字體顏色 {color: #009900;}
+.化權字體顏色 {color: #0066FF;}
+.化科字體顏色 {color: #ffc266;}
+.化忌字體顏色 {color: #CC0000;}
+.默認字體顏色 {color: #000000;}
+
+.化祿背景顏色 {background-color: #009900;}
+.化權背景顏色 {background-color: #0066FF;}
+.化科背景顏色 {background-color: #ffc266;}
+
+.化忌背景顏色 {background-color: #CC0000;}
+.默認背景顏色 {background-color: #FAFAFA;}
+
+.化祿星曜顏色 {background-color: #009900; color: #FFFFFF;}
+.化權星曜顏色 {background-color: #0066FF; color: #FFFFFF;}
+.化科星曜顏色 {background-color: #ffc266; color: #FFFFFF;}
+.化忌星曜顏色 {background-color: #CC0000; color: #FFFFFF;}
+.宮干飛顏色 {background-color: #000000; color: #FFFFFF; font-weight: bold;}
+/* .宮干飛顏色 {background-color: #ff0000; color: #FFFFFF; border-radius: 12px; font-weight: bold;} */
+
+/* ************ 人事宮字體顏色 *************** */
+.命財官顏色 {color: #0000cc;}
+.夫遷福顏色 {color: #0099ff;}
+.田疾兄顏色 {color: #0099ff;}
+.父子友顏色 {color: #0099ff;}
+.飛四化人事宮 {background-color: #ffff99;}
+
+
+/* ***************** Slide Menu dot **************** */
+.zgSldMenuDot {
+    width: 20px;
+    height: 24px;
+    border-radius: 8px;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    background-color: #4d2600;
+
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+
+.ds-中宮四化飛伏註解 {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    /* background: yellow; */
+
+    font-family: KaiTi, "STKaiti", DFKai-SB, "BiauKai";
+    font-size: 24px;
+    color: #000000;
+    
+    /*font-weight: bold*/;
+}
+
+/* **************************************************** */
+
+.Snapbottom{
+   /*position: absolute;*/
+   margin-top: 20px;
+   vertical-align: bottom;
+}

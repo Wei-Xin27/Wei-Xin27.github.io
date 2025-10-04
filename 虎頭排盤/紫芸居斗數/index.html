@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">  
+  <head>
+  <meta charset="utf-8" />
+  <meta name="Viewport" content="width=device-width" />
+  
+  <script type="text/javascript" src="../lib/jquery.js"></script> <!---- v2.1.3 ---->
+  <script type="text/javascript" src="../lib/underscore.js"></script> <!---- v1.8.3 ---->
+  <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../lib/moment.js"></script>
+  <script type="text/javascript" src="../lib/pgwbrowser.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  
+
+  <script type="text/javascript" src="../script/生日輸入模塊.js"></script>
+  <script type="text/javascript" src="../script/萬年曆.js"></script>
+  <script type="text/javascript" src="../script/Plug-ins.js"></script>
+  <script type="text/javascript" src="../script/bzBaseClasses.js"></script>
+  <script type="text/javascript" src="../script/authen.js"></script>
+
+  <script type="text/javascript" src="../紫微斗數/斗數基礎配件.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數圖表.js"></script>
+
+  <script type="text/javascript" src="../紫微斗數/斗數命盤.js"></script>
+  
+  <script type="text/javascript" src="../app/速查表.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數速查.js"></script>
+  <script type="text/javascript" src="../紫微斗數/斗數命盤設計模塊.js"></script>
+      
+  <script type="text/javascript" src="../紫微斗數/三合派/三合派-init.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合派-UICtrl.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合派解盤架構.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合基本元件.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合命盤.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合排盤.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/三合格局分析.js"></script>
+      <script type="text/javascript" src="../紫微斗數/三合派/三合命盤中宮.js"></script>
+      
+  <script type="text/javascript" src="../紫微斗數/三合派/三合命盤架構分析.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/星曜宮位格局註解.js"></script>
+
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/王亭之中州派參考.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/各宮分析表.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/華山居士_命宮闡釋.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/陳天賜_斗數擂台.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/中州派星曜論.js"></script>
+  <script type="text/javascript" src="../紫微斗數/三合派/命盤分析單元/補充參考資料.js"></script>
+   
+  <script type="text/javascript" src="../app/雜項論命/袁天罡稱骨.js"></script>
+  <script type="text/javascript" src="../app/雜項論命/三世書.js"></script>
+  <script type="text/javascript" src="../app/雜項論命/雜項.js"></script>
+  <script type="text/javascript" src="../app/雜項論命/納音批命.js"></script>
+  <script type="text/javascript" src="../app/雜項論命/盲派神煞.js"></script>
+  <script type="text/javascript" src="../app/二十八星宿/二十八宿.js"></script>
+      
+  <link href="../紫微斗數/三合派/styles-三合橫盤.css" rel="stylesheet" type="text/css">
+  <link href="../紫微斗數/三合派/styles-三合排版.css" rel="stylesheet" type="text/css">
+  <link href="../紫微斗數/ds-styles.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="系統設定.js"></script>
+
+  <!--- tipped http://www.tippedjs.com/documentation -->
+  <!--script type="text/javascript" src="..\lib\tipped.js"></script-->
+  <!--link href="../css/tipped.css" rel="stylesheet" type="text/css"-->
+
+  <!-- jQuery touchy: https://github.com/yairEO/touchy -->
+  <script type="text/javascript" src="..\lib\jquery.touch.js"></script>
+
+
+  <title>紫微斗數 - 排盤</title>
+</head>
+
+<body>
+<img id="nrxs-飛星斗數-圖" style="width: 318px; height: 110px;" alt="紫微斗數" src="Logo2.gif">
+<div id="div-飛星斗數-登錄"></div>
+<br>
+<div id="div-斗數-生日輸入" class="hidden-print"></div>
+
+<div class="container-fluid" id="DouShuChart" style="height: auto; float:left;"></div>
+
+<div class="container-fluid" id="三合橫盤" style="height: auto; width:auto; float:left;"></div>
+
+<div class="row"></div>
+<div id="shhp-命盤輔助程式" style="margin-top: 5px; height: auto; width: auto; float:left;"></div>
+<div class="row"></div>'
+<div class="collapse container" id="app-命盤設計" style="height: auto; width: 400px; margin-top: 20px; float: left;"></div>
+
+    
+<div class="row"></div>
+
+    
+<div id="shhp-AnalysisMenu" style="margin-left: 5px; margin-top: 8px;">
+  <ul class="nav nav-tabs">
+    <li id="tab_本命分析" class="active"><a data-toggle="tab" href="#tab-本命">本命分析</a></li>
+    <li id="tab_中洲派參考"><a data-toggle="tab" href="#tab-中洲參考">中洲派參考</a></li>
+    <li id="tab_客制分析"><a data-toggle="tab" href="#tab-客制分析">客制分析</a></li>
+  </ul>
+</div>
+
+
+<div id="shhp-AnalysisContent" class="tab-content" style="margin-left: 5px;">
+  <div id="tab-本命" class="tab-pane fade in active">
+    <!--h3>本命分析</h3-->
+    <p id="分析內容_本命分析" class="container-fluid ds-分析內容" style="margin-left: 3px; margin-top: 20px;"></p>
+  </div>
+
+  <div id="tab-中洲參考" class="tab-pane fade">
+    <!--h3>三合派分析</h3-->
+    <p id="分析內容_中洲派參考" class="container-fluid ds-分析內容" style="margin-left: 3px; margin-top: 20px;">@@@</p>
+  </div>
+
+  <div id="tab-客制分析" class="tab-pane fade">
+    <!--h3>三合派分析</h3-->
+    <p id="分析內容_客制分析" class="container-fluid ds-分析內容" style="margin-left: 3px; margin-top: 20px;">***</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="debug-sysinfo" style="height: auto; width:200px; float:left;"></div>
+
+</body>
+
+<script type="text/javascript">
+  var 系統 = new 系統初始();
+  //var 斗數命盤;
+  斗數命盤初始();
+</script>
+</html>
