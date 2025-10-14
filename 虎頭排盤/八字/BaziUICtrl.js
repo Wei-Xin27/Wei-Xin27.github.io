@@ -580,6 +580,7 @@ $(document).on("click touchstart", ".流年干支格子", function () {
 
 function 排列八字圖表(命盤) {
     console.log(命盤);
+    笔记(命盤);
 
     switch(命盤.輸入資料.八字盤格式){
         case 0: case 2:
